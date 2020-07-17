@@ -61,7 +61,7 @@ printf("With %i followers and an engagment rate of %.2f, you could earn $%.2f pe
 
 }
 
-float engagementCalc(int a, int b){
+float engagementCalc(int a, int b){ 
     float avgLikes = a / 3;
     float per = (a / b) * 100; // divides the average likes by the number of followers and multiplies it by 100 to get the engagement rate as a percent.
     return per;// returns the percent
